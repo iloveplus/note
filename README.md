@@ -7,6 +7,7 @@
 - [求数组中第三小的值](https://github.com/iloveplus/note/blob/master/min.md)
 - [排序](https://github.com/iloveplus/note/blob/master/sort.md)
 - [数组扁平化](https://github.com/iloveplus/note/blob/master/flatArray.md)
+- [数组基础知识点](https://github.com/iloveplus/note/blob/master/arrayBase.md)
 
 ## 样式
 - [Before和After用法小结](https://www.cnblogs.com/xuhang/p/5909149.html)
