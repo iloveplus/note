@@ -1,24 +1,6 @@
 ## 将元素插入数组指定位置 
 
-### 使用场景：在项目长列表指定位置插入广告、关注等模块，例如在第一个位置插入关注模块，然后每间隔3个位置插入广告
-```
-<List
-    data={data}
-    insertMaps={[
-        {
-            interval: 1,
-            component: this.renderFocus,
-        },
-        {
-            interval: 3,
-            component: this.renderAd,
-            loop: true
-        },
-    ]}
-/>
-```
-
-### 代码逻辑
+代码逻辑
 ```js
 var arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 
@@ -63,4 +45,22 @@ console.log(insertTag(arr, [{interval: 1, component: 'a'}, {interval: 2, compone
 console.log(insertTag(arr, [{interval: 1, component: 'a'}, {interval: 2, component: 'b', loop: true }]))
 console.log(insertTag(arr, [{interval: 1, component: 'a'}, {interval: 3, component: 'b' }, {interval: 2, component: 'c', loop: true }]))
 console.log(insertTag(arr, [{interval: 1, component: 'a'}, {interval: 3, component: 'b', loop: true }, {interval: 2, component: 'c', loop: true }]))
+```
+
+使用场景：在项目长列表指定位置插入广告、关注等模块，例如在第一个位置插入关注模块，然后每间隔3个位置插入广告
+```
+<List
+    data={data}
+    insertMaps={[
+        {
+            interval: 1,
+            component: this.renderFocus,
+        },
+        {
+            interval: 3,
+            component: this.renderAd,
+            loop: true
+        },
+    ]}
+/>
 ```
