@@ -8,6 +8,7 @@
 - [排序](https://github.com/iloveplus/note/blob/master/sort.md)
 - [数组扁平化](https://github.com/iloveplus/note/blob/master/flatArray.md)
 - [数组基础知识点](https://github.com/iloveplus/note/blob/master/arrayBase.md)
+- [写一个根据id字段查找记录的缓存函数](https://github.com/iloveplus/note/blob/master/cache.md)
 
 ## 样式
 - [Before和After用法小结](https://www.cnblogs.com/xuhang/p/5909149.html)
